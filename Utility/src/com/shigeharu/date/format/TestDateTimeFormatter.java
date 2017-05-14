@@ -34,7 +34,6 @@ public class TestDateTimeFormatter {
 		/* 経過した時間 */
 		System.out.println(String.format("時間差　:%02d:%02d:%02d %09d", seconds / 3600,
 				(seconds % 3600) / 60, seconds % 60, nano));
-
 	}
 
 }
