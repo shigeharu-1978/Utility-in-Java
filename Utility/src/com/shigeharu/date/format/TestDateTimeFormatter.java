@@ -44,7 +44,6 @@ public class TestDateTimeFormatter {
 		System.out.println("開始日付:" + startDate.format(DATE_FORMAT));
 		System.out.println("終了日付:" + endDate.format(DATE_FORMAT));
 		System.out.println("過去日付:" + period1.getDays());
-
 	}
 
 }
