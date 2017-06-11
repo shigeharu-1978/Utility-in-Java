@@ -11,8 +11,12 @@ public class HelloWorld {
 	/**
 	 * @return
 	 */
-	public String sayHello() {
-		return "Hello Maven";
+	public String sayHello(String test) {
+		return test;
+	}
+
+	public static void main(String[] args) {
+		System.out.println(new HelloWorld().sayHello(null));
 	}
 
 }
