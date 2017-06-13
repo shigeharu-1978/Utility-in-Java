@@ -16,6 +16,7 @@
 	</dependencies>
 	<properties>
 		<junit.version>4.11</junit.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	<build>
 		<pluginManagement>
