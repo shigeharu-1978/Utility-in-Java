@@ -17,6 +17,7 @@ public class HelloWorld {
 
 	public static void main(String[] args) {
 		System.out.println(new HelloWorld().sayHello(null));
+		System.out.println(System.getProperty("java.io.tmpdir"));
 	}
 
 }
