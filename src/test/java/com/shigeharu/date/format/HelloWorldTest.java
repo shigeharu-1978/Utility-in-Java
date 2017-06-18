@@ -42,13 +42,6 @@ public class HelloWorldTest {
 		assertEquals("結果2", test, result);
 		System.out.println("OK!");
 	}
-	@Test
-	public void testSayHello_003() {
-		String test = "Hello World2";
-		String result = hello.sayHello(test);
-		assertEquals("結果3", test, result);
-		System.out.println("OK!");
-	}
 	@After
 	public void endTest() {
 		System.out.println("Method: " + arrMethod.get(count) + " end!!");
